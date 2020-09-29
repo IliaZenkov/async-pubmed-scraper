@@ -170,7 +170,7 @@ def get_num_pages(keyword):
     soup = BeautifulSoup(driver.page_source, "lxml")
     # Get total number of pages returned for the keyword
     num_pages = int((soup.find('span',{'class':'total-pages'}).get_text()).replace(',',''))
-    return 1
+    return num_pages
 
 async def get_pmids():
     """
