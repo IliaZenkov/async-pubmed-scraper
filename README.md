@@ -1,9 +1,11 @@
 # async-pubmed-scraper
-This script asynchronously scrapes Pubmed - an open-access database of scholarly research articles -
+## What it does 
+This script asynchronously scrapes PubMed - an open-access database of scholarly research articles -
 and saves the data to a DataFrame which is then written to a CSV intended for further processing
-This script is capable of scraping a list of keywords asynchronously
+This script scrapes a user-specified list of keywords and their results pages asynchronously.
+Collects the following data: url, title, abstract, authors, affiliations, journal, keywords, date
 
-Why scrape - why asynchronous?
+## Why scrape when there's an API? Why asynchronous?
 PubMed provides an API - the NCBI Entrez API, also known as Entrez Programming Utilities or E-Utilities - 
 which can be used build datasets with their search engine - however, PubMed allows only 3 URL requests per second 
 through E-Utilities (10/second w/ API key).
