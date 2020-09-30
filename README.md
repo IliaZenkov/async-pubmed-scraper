@@ -16,6 +16,6 @@ all urls on all results pages in parallel compared to downloading articles page 
 Simply put, we're going to make our client send requests to all search queries and all resulting article URLs at the same time.
 Otherwise, our client will wait for the server to answer before sending the next request, so most of our script's execution time
 will be spent waiting for a response from the (PubMed) server.  
-See here for more info on asynchronous web scraping: (link)
+
 We'll use nest_asyncio to avoid issues with event loop nesting in Jupyter notebooks (i.e nested asyncio calls)
 Note also that asyncio + aiohttp is faster than the grequests library for async HTTP requests
