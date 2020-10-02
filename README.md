@@ -36,6 +36,6 @@ will be spent waiting for a response from the (PubMed) server.
 
 ## License
 
-See LICENSE.md
+MIT License. See LICENSE.md
 
 
