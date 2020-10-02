@@ -9,18 +9,20 @@ Instructions for Windows. Make sure you have [python](https://www.python.org/dow
 5) Enter ```python async_pubmed_scraper -h``` to get usage instructions, and get scraping! <br> <br>
 Example: To scrape the first 10 pages of search results for your keywords from 2018 to 2020 and save the data to the file ```article_data.csv```, enter ```python async_pubmed_scraper --pages 10 --start 2018 --stop 2020 --output article_data``` <br>
 
-## What it does 
-##### Collects the following data: url, title, abstract, authors, affiliations, journal, keywords, date <br>
-##### Gets an average speed of about 13 articles/second. <br>
-This script asynchronously scrapes PubMed - an open-access database of scholarly research articles -
-and saves the data to a PANDAS DataFrame which is then written to a CSV intended for further processing.
-This script scrapes a user-specified list of keywords for all results pages asynchronously. 
-
 ## Example Usage and Data
+
 <p align="center">
+<h5>Collects the following data: url, title, abstract, authors, affiliations, journal, keywords, date</h5> <br>
+##### Gets an average speed of about 13 articles/second. <br>
   <img src="https://raw.githubusercontent.com/IliaZenkov/async-pubmed-scraper/master/example/cli_usage_example.JPG" height=410 width=690/>
   <img align="center" src="https://raw.githubusercontent.com/IliaZenkov/async-pubmed-scraper/master/example/data_example.JPG"/> <sub><sup>My name won't be highlighted in your data :)</sup></sub>
 </p>
+
+## What it does 
+
+This script asynchronously scrapes PubMed - an open-access database of scholarly research articles -
+and saves the data to a PANDAS DataFrame which is then written to a CSV intended for further processing.
+This script scrapes a user-specified list of keywords for all results pages asynchronously. 
 
 
 
