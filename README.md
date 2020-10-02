@@ -10,10 +10,10 @@ Instructions for Windows. Make sure you have [python](https://www.python.org/dow
 Example: To scrape the first 10 pages of search results for your keywords from 2018 to 2020 and save the data to the file ```article_data.csv```, enter ```python async_pubmed_scraper --pages 10 --start 2018 --stop 2020 --output article_data``` <br>
 
 ## Example Usage and Data
-
-<p align="center">
 <h5>Collects the following data: url, title, abstract, authors, affiliations, journal, keywords, date</h5> <br>
 <h5>Gets an average speed of about 13 articles/second.</h5> <br>
+<p align="center">
+
   <img src="https://raw.githubusercontent.com/IliaZenkov/async-pubmed-scraper/master/example/cli_usage_example.JPG" height=410 width=690/>
   <img align="center" src="https://raw.githubusercontent.com/IliaZenkov/async-pubmed-scraper/master/example/data_example.JPG"/> <sub><sup>My name won't be highlighted in your data :)</sup></sub>
 </p>
