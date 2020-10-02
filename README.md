@@ -3,11 +3,11 @@
 ## Quick Start
 Instructions for Windows. Make sure you have [python](https://www.python.org/downloads/) installed. Linux users: ```async_pubmed_scraper -h``` <br>
 1) Open command prompt and change directory to the folder containing ```async_pubmed_scraper.py``` and ```keywords.txt```
-2) Enter the following in command prompt to create a [virtual environment](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/):<br> ```python -m pip install --user virtualenv```, ```python -m venv scraper_env```, ```.\scraper_env\Scripts\activate``` <br>
-3) Enter ``` pip install -r requirements.txt``` in command prompt to install dependencies<br>
-4) Enter your list of keywords to scrape, one per line, in ```keywords.txt``` <br>
-5) Enter ```python async_pubmed_scraper -h``` to get usage instructions, and get scraping! <br> <br>
-Example: To scrape the first 10 pages of search results for your keywords from 2018 to 2020 and save the data to the file ```article_data.csv```, enter ```python async_pubmed_scraper --pages 10 --start 2018 --stop 2020 --output article_data``` <br>
+2) Create a [virtual environment:](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/):<br> ```python -m pip install --user virtualenv```, ```python -m venv scraper_env```, ```.\scraper_env\Scripts\activate``` <br>
+3) Install dependencies: ``` pip install -r requirements.txt```<br>
+4) Enter list of keywords to scrape, one per line, in ```keywords.txt``` <br>
+5) Enter ```python async_pubmed_scraper -h``` for usage instructions and you are good to go <br> <br>
+Example: To scrape the first 10 pages of search results for your keywords from 2018 to 2020 and save the data to the file ```article_data.csv```:<br> ```python async_pubmed_scraper --pages 10 --start 2018 --stop 2020 --output article_data``` <br>
 
 ## Example Usage and Data
 <h5 align="center"> Collects the following data at 13 articles/second: url, title, abstract, authors, affiliations, journal, keywords, date</h5>
