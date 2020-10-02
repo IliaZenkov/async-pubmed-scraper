@@ -6,7 +6,7 @@ Instructions for Windows. Make sure you have [python](https://www.python.org/dow
 2) Enter the following in command prompt to create a [virtual environment](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/):<br> ```python -m pip install --user virtualenv```, ```python -m venv scraper_env```, ```.\scraper_env\Scripts\activate``` <br>
 3) Enter ``` pip install -r requirements.txt``` in command prompt to install dependencies<br>
 4) Enter your list of keywords to scrape, one per line, in ```keywords.txt``` <br>
-5) Enter python async_pubmed_scraper -h to get usage instructions, and get scraping!
+5) Enter ```python async_pubmed_scraper -h``` to get usage instructions, and get scraping!
 Example: To scrape the first 10 pages of search results for your keywords from 2018 to 2020 and save the data to "article_data.csv", enter ```python async_pubmed_scraper --pages 10 --start 2018 --stop 2020 --output article_data``` <br>
 ## What it does 
 This script asynchronously scrapes PubMed - an open-access database of scholarly research articles -
