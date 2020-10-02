@@ -19,7 +19,7 @@ This script scrapes a user-specified list of keywords for all results pages asyn
 ## Example Usage and Data
 
 <img src="https://raw.githubusercontent.com/IliaZenkov/async-pubmed-scraper/master/example/cli_usage_example.JPG" height=410 width=690/>
-<img src="https://raw.githubusercontent.com/IliaZenkov/async-pubmed-scraper/master/example/data_example.JPG"/>
+<img src="https://raw.githubusercontent.com/IliaZenkov/async-pubmed-scraper/master/example/data_example.JPG"/> <sub><sup>My name won't be highlighted in your data</sup></sub>
 
 ## Why scrape when there's an API? Why asynchronous?
 PubMed provides an API - the NCBI Entrez API, also known as Entrez Programming Utilities or E-Utilities - 
