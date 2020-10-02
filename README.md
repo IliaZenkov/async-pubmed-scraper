@@ -18,7 +18,7 @@ This script scrapes a user-specified list of keywords for all results pages asyn
 
 ## Example Usage and Data
 
-<img src="https://raw.githubusercontent.com/IliaZenkov/async-pubmed-scraper/master/example/cli_usage_example.JPG" height=273 width=460/>
+<img src="https://raw.githubusercontent.com/IliaZenkov/async-pubmed-scraper/master/example/cli_usage_example.JPG" height=410 width=690/>
 <img src="https://raw.githubusercontent.com/IliaZenkov/async-pubmed-scraper/master/example/data_example.JPG"/>
 
 ## Why scrape when there's an API? Why asynchronous?
@@ -31,5 +31,8 @@ Simply put, we're going to make our client send requests to all search queries a
 Otherwise, our client will wait for the server to answer before sending the next request, so most of our script's execution time
 will be spent waiting for a response from the (PubMed) server. 
 
+## License
+
+See LICENSE.md
 
 
