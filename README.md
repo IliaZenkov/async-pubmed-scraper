@@ -17,8 +17,8 @@ Collects the following data: url, title, abstract, authors, affiliations, journa
 
 ## Example Usage and Data
 
-<img HTML='https://raw.githubusercontent.com/IliaZenkov/async-pubmed-scraper/master/example/cli_usage_example.JPG'/>
-<img HTML='https://raw.githubusercontent.com/IliaZenkov/async-pubmed-scraper/master/example/data_example.JPG'/>
+<img src="https://raw.githubusercontent.com/IliaZenkov/async-pubmed-scraper/master/example/cli_usage_example.JPG"/>
+<img src="https://raw.githubusercontent.com/IliaZenkov/async-pubmed-scraper/master/example/data_example.JPG"/>
 
 ## Why scrape when there's an API? Why asynchronous?
 PubMed provides an API - the NCBI Entrez API, also known as Entrez Programming Utilities or E-Utilities - 
