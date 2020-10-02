@@ -17,9 +17,12 @@ and saves the data to a PANDAS DataFrame which is then written to a CSV intended
 This script scrapes a user-specified list of keywords for all results pages asynchronously. 
 
 ## Example Usage and Data
+<p align="center">
+  <img src="https://raw.githubusercontent.com/IliaZenkov/async-pubmed-scraper/master/example/cli_usage_example.JPG" height=410 width=690/>
+  <img align="center" src="https://raw.githubusercontent.com/IliaZenkov/async-pubmed-scraper/master/example/data_example.JPG"/> <sub><sup>My name won't be highlighted in your data :)</sup></sub>
+</p>
 
-<img align="center" src="https://raw.githubusercontent.com/IliaZenkov/async-pubmed-scraper/master/example/cli_usage_example.JPG" height=410 width=690/>
-<img align="center" src="https://raw.githubusercontent.com/IliaZenkov/async-pubmed-scraper/master/example/data_example.JPG"/> <sub><sup>My name won't be highlighted in your data :)</sup></sub>
+
 
 ## Why scrape when there's an API? Why asynchronous?
 PubMed provides an API - the NCBI Entrez API, also known as Entrez Programming Utilities or E-Utilities - 
