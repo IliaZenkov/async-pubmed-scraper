@@ -1,7 +1,7 @@
 # Asynchronous PubMed Scraper
 
 ## Quick Start
-Instructions for Windows. Make sure you have [python](https://www.python.org/downloads/) installed <br>
+Instructions for Windows. Make sure you have [python](https://www.python.org/downloads/) installed. Linux users, run async_pubmed_scraper -h. <br>
 1) Open command prompt and change directory to the folder containing async_pubmed_scraper.py and keywords.txt
 2) Enter the following in command prompt to create a virtual environment: ```python -m pip install --user virtualenv```, ```python -m venv scraper_env```, ```.\env\Scripts\activate``` <br>
 3) Enter ``` pip install -r requirements.txt``` in command prompt to install dependencies<br>
