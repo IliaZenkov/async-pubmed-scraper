@@ -14,7 +14,7 @@ Example: To scrape the first 10 pages of search results for your keywords from 2
 ##### Gets an average speed of about 13 articles/second. <br>
 This script asynchronously scrapes PubMed - an open-access database of scholarly research articles -
 and saves the data to a PANDAS DataFrame which is then written to a CSV intended for further processing.
-This script scrapes a user-specified list of keywords for all results pages asynchronously. <br
+This script scrapes a user-specified list of keywords for all results pages asynchronously. 
 
 ## Example Usage and Data
 
