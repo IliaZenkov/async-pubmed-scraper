@@ -14,16 +14,13 @@ Example: To scrape the first 10 pages of search results for your keywords from 2
 <p align="center">
 
   <img src="https://raw.githubusercontent.com/IliaZenkov/async-pubmed-scraper/master/example/cli_usage_example.JPG" height=410 width=690/>
-  <img align="center" src="https://raw.githubusercontent.com/IliaZenkov/async-pubmed-scraper/master/example/data_example.JPG"/> <sub><sup>My name won't be highlighted in your data :)</sup></sub>
-</p>
+  <img align="center" src="https://raw.githubusercontent.com/IliaZenkov/async-pubmed-scraper/master/example/data_example.JPG"/>
 
 ## What it does 
 
 This script asynchronously scrapes PubMed - an open-access database of scholarly research articles -
 and saves the data to a PANDAS DataFrame which is then written to a CSV intended for further processing.
 This script scrapes a user-specified list of keywords for all results pages asynchronously. 
-
-
 
 ## Why scrape when there's an API? Why asynchronous?
 PubMed provides an API - the NCBI Entrez API, also known as Entrez Programming Utilities or E-Utilities - 
