@@ -34,6 +34,6 @@ will be spent waiting for a response from the (PubMed) server.
 
 ## License
 
-MIT. Use this code any way you like. See LICENSE.md
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/IliaZenkov/async-pubmed-scraper/blob/master/LICENSE)
 
 
